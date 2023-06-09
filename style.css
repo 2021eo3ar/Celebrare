@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 15px 0;
+    box-shadow: 3px 3px 5px grey;
+    
+}
+.header p {
+    font-size: large;
+    font-weight: bolder;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  
+  .card {
+    width: 300px;
+    height: 400px;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid black;
+  }
+  
+  h1 {
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .upload-button {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: justify;
+  }
+  
+  #image-preview {
+    width: 200px;
+    height: 200px;
+    border: 2px dashed #ccc;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  #image-preview img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    transform: rotate(0deg);
+    transform-origin: center center;
+  }
+  
+  .actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .actions button {
+    margin: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  

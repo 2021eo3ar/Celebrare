@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celebrare</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+       <p>Add Image/ Icon</p> 
+    </div>
+    <div class="container">
+      <div class="card">
+        <h1>Upload Image</h1>
+        <input type="file" id="upload" style="display: none;">
+        <label for="upload" class="upload-button">Choose from Device</label>
+        <div id="image-preview"></div>
+        <div class="actions">
+          <button id="rotate-button">Rotate</button>
+          <button id="flip-horizontal-button">Flip Horizontal</button>
+          <button id="flip-vertical-button">Flip Vertical</button>
+          <button id="crop-button">Crop</button>
+        </div>
+      </div>
+    </div>       
+</div>
+</body>
+<script src="index.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/cropperjs@1.5.12/dist/cropper.min.js"></script>
+</html>
